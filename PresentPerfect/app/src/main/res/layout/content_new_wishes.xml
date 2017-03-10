@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gift">
+
+    <!-- UserId Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="User Id"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+    <!-- UserId read only -->
+    <TextView android:id="@+id/UserId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <!-- Description Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+    <!-- Input Description -->
+    <EditText android:id="@+id/Description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        />
+
+
+
+    <!-- Button Create Wish -->
+    <Button android:id="@+id/btnCreateWish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Wish"/>
+
+</LinearLayout>

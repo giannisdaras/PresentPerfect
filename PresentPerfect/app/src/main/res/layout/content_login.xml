@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gift"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.wishlist.MyProfile"
+    tools:showIn="@layout/app_bar_my_profile"
+    >
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/face"
+
+        android:id="@+id/imagebtn"
+        android:layout_below="@+id/login_user"
+        android:layout_alignLeft="@+id/btnNewWish"
+        android:layout_alignStart="@+id/btnNewWish" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/login_user"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        />/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/search_button"
+        android:layout_alignTop="@+id/btnDonate"
+        android:layout_alignRight="@+id/imagebtn"
+        android:layout_alignEnd="@+id/imagebtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit profile"
+        android:id="@+id/btnProfileEdit"
+
+        android:layout_alignBaseline="@+id/btnDonate"
+        android:layout_alignBottom="@+id/btnDonate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add  wish"
+        android:id="@+id/btnNewWish"
+        android:layout_above="@+id/search_button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friends"
+        android:id="@+id/btnFriends"
+        android:layout_below="@+id/imagebtn"
+        android:layout_alignRight="@+id/btnProfileEdit"
+        android:layout_alignEnd="@+id/btnProfileEdit" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/message"
+        android:layout_marginTop="67dp"
+        android:layout_below="@+id/btnDonate"
+        android:layout_toStartOf="@+id/btnFriends"
+        android:layout_toLeftOf="@+id/btnFriends" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Donations"
+        android:id="@+id/btnDonate"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Wishlist"
+        android:id="@+id/btnViewMyW"
+        android:layout_alignTop="@+id/btnFriends"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Click for advice!"
+        android:id="@+id/textView"
+        android:layout_below="@+id/login_user"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

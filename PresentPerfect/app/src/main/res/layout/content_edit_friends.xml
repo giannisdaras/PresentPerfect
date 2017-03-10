@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gift">
+
+    <!--
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="UserId"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+    <TextView android:id="@+id/UserId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+    -->
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="FriendId"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+
+    <TextView android:id="@+id/FriendId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Friend Name"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+
+    <TextView android:id="@+id/FName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Friend Notes"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+
+    <TextView android:id="@+id/FNotes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        />
+
+
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- Button Create Product -->
+        <Button android:id="@+id/btnViewFriendWishes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="View Friend&apos;s Wishes"
+            android:layout_weight="1"/>
+
+        <!-- Button Create Product -->
+        <Button android:id="@+id/btnDelete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

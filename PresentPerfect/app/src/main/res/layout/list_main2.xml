@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ViewFriendsActivity"
+    >
+
+    <!-- Product id (pid) - will be HIDDEN - used to pass to other activity -->
+    <TextView
+        android:id="@+id/UserId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/FriendId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
+</LinearLayout>
